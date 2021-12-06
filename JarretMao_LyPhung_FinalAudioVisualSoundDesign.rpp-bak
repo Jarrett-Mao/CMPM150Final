@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.42/win64" 1638756457
+<REAPER_PROJECT 0.1 "6.42/win64" 1638779727
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 85
-  ZOOM 18.15611366294416 0 0
+  CURSOR 97
+  ZOOM 50.72053021187361 0 0
   VZOOMEX 5 0
   USE_REC_CFG 0
   RECMODE 1
@@ -57,8 +57,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 84 84
-  SELECTION2 84 84
+  SELECTION 2 0
+  SELECTION2 2 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -92,13 +92,13 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.10414416318588 0 -1 -1 1
+    VOLPAN 0.18536257719148 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -145,7 +145,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -182,7 +182,7 @@
     >
   >
   <TRACK {3C0999D8-0995-45A6-8759-17227985B5C5}
-    NAME "Mortal Kombat X - Johnny Cage breaking bones"
+    NAME "Bone Breaking"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -192,7 +192,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -224,7 +224,7 @@
       CHANMODE 0
       GUID {08C7F4D6-D59E-4F85-83D7-444C49EE9D47}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
+        FILE "Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
       >
     >
     <ITEM
@@ -246,7 +246,7 @@
       CHANMODE 0
       GUID {0F843F68-BB0A-4522-B657-99CF69DB8207}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
+        FILE "Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
       >
     >
     <ITEM
@@ -268,12 +268,12 @@
       CHANMODE 0
       GUID {E9CA00CE-5D1F-4564-9652-8E524DEBA550}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
+        FILE "Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
       >
     >
   >
   <TRACK {86DFB93C-B6A2-4647-ACE0-ECFB48552A15}
-    NAME "Shotgun Reload SFX"
+    NAME "Glass Shattering SFX"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -283,7 +283,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -315,12 +315,12 @@
       CHANMODE 0
       GUID {2CC25208-238B-4D5C-A8C5-BCEB1F68F2F2}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Glass Breaking Sound Effect.mp3" 1
+        FILE "Glass Breaking Sound Effect.mp3" 1
       >
     >
   >
   <TRACK {39E4B3C0-5595-4384-995F-10B9799659BA}
-    NAME ""
+    NAME "Metallic Sounds"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -330,9 +330,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -344,25 +344,553 @@
     MIDIOUT -1
     MAINSEND 1 0
     <ITEM
-      POSITION 88.12473660868599
+      POSITION 7.5
       SNAPOFFS 0
-      LENGTH 0.65062358805139
+      LENGTH 0.92051389162418
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {5523BFFC-81AE-4763-B35D-BE536F08B65A}
-      IID 42
-      NAME "Shotgun Reload SFX.mp3"
+      IGUID {B34C2F1B-059A-4A36-AA57-6D38A876EEF1}
+      IID 50
+      NAME "Metal Grinding Sound Effect.mp3"
       VOLPAN 1 0 1 -1
-      SOFFS 1.14510869589549
+      SOFFS 4
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {8F300A33-4162-4A95-8D90-908D9B4A61AD}
+      GUID {595CD861-51BD-461F-8CFA-14451ABA6A17}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Shotgun Reload SFX.mp3" 1
+        FILE "Metal Grinding Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 10.09258045247873
+      SNAPOFFS 0
+      LENGTH 0.7767275160172
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5593937B-B40B-4334-A23E-DDA412D024CE}
+      IID 50
+      NAME "Metal Grinding Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D3F6E434-630E-4214-A603-C185E07A14BC}
+      <SOURCE MP3
+        FILE "Metal Grinding Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 12.5
+      SNAPOFFS 0
+      LENGTH 0.84581995338859
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.099461 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6BA03090-1D4F-4981-BC49-5A19CAF6D907}
+      IID 49
+      NAME "Metallic Grinding Sound Effects.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0.80603707677735
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C86B5F98-BE5E-4576-97CA-9580CD938E34}
+      <SOURCE MP3
+        FILE "Metallic Grinding Sound Effects.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 46.5
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {77363ACD-95E1-4FA7-92CE-E7BA857CBEFE}
+      IID 54
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 14.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F2440A56-5EBC-4483-AA6A-4884B0BC1F9C}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 47.19396292322273
+      SNAPOFFS 0
+      LENGTH 1.19396292322273
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.674751 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {87529678-6524-4E23-A63E-9FBF8DE2668C}
+      IID 55
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 16.80603707677727
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E9684AE-593F-4CEC-A5C1-9E2D14450509}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 47.71317491449613
+      SNAPOFFS 0
+      LENGTH 0.68620440629382
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.674751 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BD8F2C60-2656-440B-BBD9-1EADDD5563A2}
+      IID 57
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 13.81379559370617
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {74685BC9-5048-4F1D-BCDD-0057989B50B4}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 50.70191405663606
+      SNAPOFFS 0
+      LENGTH 0.65208165039702
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {74C5A63B-C7CC-4393-B883-9E6BC5B75484}
+      IID 55
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 16.89264465853221
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6B67B52E-2674-4AC1-86AB-E0FB8E33CE56}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 58.07561538236533
+      SNAPOFFS 0
+      LENGTH 0.68620440629382
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6D5941C3-327C-4911-9980-17DB1524B2BF}
+      IID 57
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 13.81379559370617
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AD3286EA-0108-4197-BC0A-900A00506817}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 59.5
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {16A6EF36-C06B-488F-8C37-35DF2F805D1A}
+      IID 62
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 28.96453210861066
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BABC23A3-3B93-4830-B62E-778E46ED9815}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 67.5
+      SNAPOFFS 0
+      LENGTH 0.7195618215106
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E4CC0D7E-E930-4314-8C8E-E7B38AC602C2}
+      IID 67
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 26.2804381784894
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {48C733C7-66DF-473A-A25D-6007217FEE9C}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 69.85353809771924
+      SNAPOFFS 0
+      LENGTH 0.33944165010527
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {99E7E1AE-F596-455B-869A-A56E783329C0}
+      IID 68
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 29.0020754251363
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {44F6C412-B7F6-4D63-A52E-533466791010}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 70.32778066355048
+      SNAPOFFS 0
+      LENGTH 0.69402917279744
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.361557 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6110493C-5728-4B5F-8C2C-E36ECCCE0C32}
+      IID 68
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 29.68678999460064
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5E4C4BCA-97F2-48F3-BB30-9304F97AD1DB}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 70.66025319116329
+      SNAPOFFS 0
+      LENGTH 0.63104630935997
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.361557 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {88CCBE51-3FF0-428D-84CB-BD89E6A266DB}
+      IID 68
+      NAME sword_fighting.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 31.66717903660328
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {42D8920B-E0C8-43AB-9A20-C4E679DC93BE}
+      <SOURCE MP3
+        FILE "sword_fighting.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 88.06241964520964
+      SNAPOFFS 0
+      LENGTH 0.4921826625207
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {327488A0-C564-441C-AF11-C72EE6132C62}
+      IID 71
+      NAME "Shotgun Reload SFX.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.24705700304341
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1FC8AC32-4117-493C-8364-15D86592A132}
+      <SOURCE MP3
+        FILE "Shotgun Reload SFX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 96.42387442710864
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.200884 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {72449A90-9909-4859-A77F-BD3BD4124926}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C3A250B1-F07D-4353-A03F-F6A55C4DE0F5}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 97.28878006886225
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.200884 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {275D155E-5C3B-4465-94CB-527FAE12B9AD}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D3E917B7-CFDC-4CF8-A4D8-B93E193EE788}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 99.57660376117565
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.07687 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {21D71239-35A6-4406-8448-11A406A70B45}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5277140E-7B1E-429A-9172-6F00BC14795D}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 100.56552315468434
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.07687 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F3D3887F-CA96-4FAF-9A50-101BD29768B2}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4A58CEBD-8C4C-4845-A6B1-9BD3F49C888C}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 101.76411664311308
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EFCAD67E-7582-48B9-A81E-6E41B02689A5}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C6F57DDE-5BB1-457D-A4BC-9E06152CF534}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 104.62103286409095
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {34FF631B-7DD1-49ED-B3F1-A097D1E22E28}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {064AB9BF-1AC0-42D2-B549-14E8F8006D12}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 105.99068977963179
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D00B5CAC-E560-4769-9266-BE27D378202F}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5DE03A5A-6DF3-4169-9EF6-4FF94A0619DB}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 110.5
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.13752 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DC307275-C1DF-4552-8300-B618B7D4A031}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C6494D40-44DF-478A-A25E-EAFA8671532F}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 111.42827013449278
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.13752 1 1 0 0
+      FADEOUT 1.1 0.01 0.007177 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {47D57662-D499-4FE1-9978-8E38CC9C8B5C}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C3548B5C-8391-49B4-B0EF-E3E65CA41A68}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 112.48688335332554
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.007177 1 1 0 0
+      FADEOUT 1.1 0.01 0.059231 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8D5FED85-4527-452B-BEC8-482A273FA24B}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {06503D02-17D3-42F2-83DA-872F1E519327}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 113.49344167672098
+      SNAPOFFS 0
+      LENGTH 1.0657897628838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.059231 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {04A1FB3D-C871-479B-8ABF-A2F322473BF9}
+      IID 74
+      NAME "Shockwave Sound Effect for Montages.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.43421023711619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {40E0B136-56F4-46ED-A618-72FB2BA92F5C}
+      <SOURCE MP3
+        FILE "Shockwave Sound Effect for Montages.mp3" 1
       >
     >
   >
@@ -372,12 +900,12 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -390,6 +918,28 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 13
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7D704998-C272-464A-B888-3CC6CD408283}
+      IID 102
+      NAME "Gas Mask Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {149204F0-44F5-4092-8450-2334EBD30E29}
+      <SOURCE MP3
+        FILE "Gas Mask Sound Effect.mp3" 1
+      >
+    >
     <ITEM
       POSITION 37.5925211441798
       SNAPOFFS 0
@@ -409,7 +959,29 @@
       CHANMODE 0
       GUID {FB7A2B99-C8B2-4FD6-B0C9-A10F542CB453}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Steam Hissing Sound Effect.mp3" 1
+        FILE "Steam Hissing Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 68.5
+      SNAPOFFS 0
+      LENGTH 0.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.135812 0 1 0 0 0
+      FADEOUT 1 0.180485 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {168CE425-9F28-4549-BD50-6FEFD4A6A945}
+      IID 72
+      NAME "Spinning Sword in the Air (One Piece Whoosh) - Sound Effect for editing.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0.47719622454777
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5DDB5CB0-FF0D-4529-B292-15E16456B5FD}
+      <SOURCE MP3
+        FILE "Spinning Sword in the Air (One Piece Whoosh) - Sound Effect for editing.mp3" 1
       >
     >
     <ITEM
@@ -431,12 +1003,298 @@
       CHANMODE 0
       GUID {D019F01F-2EB1-4DAE-9A5B-E75491A357D2}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Steam Hissing Sound Effect.mp3" 1
+        FILE "Steam Hissing Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 96.47329113480612
+      SNAPOFFS 0
+      LENGTH 0.81548893405613
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.114154 0 1 0 0 0
+      FADEOUT 0 0.328054 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {48753C7B-B003-4D8F-8481-54E9D9103353}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1498F9EB-9B04-4AFD-A949-6F35F7E8973D}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 97.43463883083314
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.114154 0 1 0 0 0
+      FADEOUT 0 0.328054 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A4941020-1C6F-4B4B-9118-34E23EB99C18}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {710407E9-6567-4C3B-8A62-F0BE0E827F8C}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 102.85244515829254
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.114154 0 1 0 0 0
+      FADEOUT 0 0.328054 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B774A5B9-7DE5-41B3-A9CF-D118CC64AE3B}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DDDEF9B1-F1F7-4D16-8D71-2E75D2E4C683}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 103.87124223343562
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.114154 0 1 0 0 0
+      FADEOUT 1.1 0.328054 0.442369 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6D1365C8-7542-4C11-A4D4-A96AB630F985}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {00E5C89F-6A2C-4A09-9432-7DB879BCED26}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 104.24436197639443
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.114154 0.442369 1 1 0 0
+      FADEOUT 0 0.328054 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F65F3D0C-5D15-4C3B-8CBA-B6BC7130E8E0}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {14749BD2-3FC9-46BA-936D-F49413C6DDE6}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 106.80169745138846
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.114154 0 1 0 0 0
+      FADEOUT 1.1 0.328054 0.328653 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {07AABB05-AB62-41F9-AEE9-E55DDA58ED11}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E5A61480-7EFF-4DDD-915F-AE23512837A9}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 107.28853290504776
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.114154 0.328653 1 1 0 0
+      FADEOUT 0 0.328054 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B971F24E-5627-4B33-B9FB-A4578F9855E9}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4D38B42C-B00C-429B-8C52-95CFC5A1F1FA}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 110.00564351840876
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.114154 0 1 0 0 0
+      FADEOUT 0 0.328054 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E2C3E738-BFDD-4230-B120-B2D46B8FF25A}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4C1195E7-3BAC-401C-85EC-BE2A9CAB4C76}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 112.81558532943018
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.114154 0 1 0 0 0
+      FADEOUT 1.1 0.328054 0.078448 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EDF0BB61-AC0A-4983-821E-5D01C5D55E8C}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FD4DD598-771B-4B95-8887-22DF7ED46E6E}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 113.55262650805525
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.114154 0.078448 1 1 0 0
+      FADEOUT 1.1 0.328054 0.067362 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5B68DF01-16B2-44C2-B681-E604D7E472C6}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7D56D2CA-0AF6-4D1A-B35C-EE6C684F12BB}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 114.06343355483841
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.114154 0.23732 1 1 0 0
+      FADEOUT 1.1 0.328054 0.578169 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {42146207-94FD-4BE7-9438-093C3AECDB28}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D2791176-19C9-4898-9874-E303979B4914}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 114.30075320170727
+      SNAPOFFS 0
+      LENGTH 0.81548893405612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.114154 0.067362 1 1 0 0
+      FADEOUT 0 0.328054 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C1E351A8-05D8-44FE-A345-75C556DFE2CC}
+      IID 90
+      NAME "Sonic Mine Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.33819677655973
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3C2E1387-843D-426B-849C-1427E4FBA965}
+      <SOURCE MP3
+        FILE "Sonic Mine Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 121.31716777417735
+      SNAPOFFS 0
+      LENGTH 1.93990505331377
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.072181 0 1 0 0 0
+      FADEOUT 1 0.728339 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5E3D54F6-8C21-4C70-87EA-B8DAE1FC36BF}
+      IID 73
+      NAME "Smoke Grenade - CS_GO Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0.67668499906367
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0E8CE8AC-C32E-4AEF-A0EA-BA34BADC4C0E}
+      <SOURCE MP3
+        FILE "Smoke Grenade - CS_GO Sound Effect.mp3" 1
       >
     >
   >
   <TRACK {5D75B5D4-29A6-4E64-963D-40B7992D9D3A}
-    NAME ""
+    NAME "Train Whistle"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -446,7 +1304,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -478,7 +1336,54 @@
       CHANMODE 0
       GUID {E156D371-B1B8-4E34-AC64-5A8AA2E41E9C}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\TRAIN Sound Effects - Steam Train Start and Whistle.mp3" 1
+        FILE "TRAIN Sound Effects - Steam Train Start and Whistle.mp3" 1
+      >
+    >
+  >
+  <TRACK {10520319-60B3-4AE7-8FAD-8254FEA4A689}
+    NAME Footsteps
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {10520319-60B3-4AE7-8FAD-8254FEA4A689}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 8.193954 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {50F32370-95E3-441D-AE16-DDDFD56050F8}
+      IID 48
+      NAME "Creepy Footsteps Sound Effect (HD) (FREE).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0FBD5ED3-4785-4A21-87F4-86F5F557A87C}
+      <SOURCE MP3
+        FILE "Creepy Footsteps Sound Effect (HD) (FREE).mp3" 1
       >
     >
   >
