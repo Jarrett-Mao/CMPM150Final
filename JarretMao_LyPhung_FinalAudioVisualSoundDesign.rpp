@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.36/win64" 1638497052
+<REAPER_PROJECT 0.1 "6.42/win64" 1638756457
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 8
-  ZOOM 26.14480367463954 0 0
+  CURSOR 85
+  ZOOM 18.15611366294416 0 0
   VZOOMEX 5 0
   USE_REC_CFG 0
   RECMODE 1
@@ -52,12 +52,13 @@
     BEATLEN 4
     SAMPLES "" ""
     PATTERN 2863311530 2863311529
+    MULT 1
   >
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 36 34.5
-  SELECTION2 36 34.5
+  SELECTION 84 84
+  SELECTION2 84 84
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -99,7 +100,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -177,6 +178,307 @@
       GUID {F3873330-3313-42DA-8F7B-A3C6E4413CD0}
       <SOURCE MP3
         FILE "MOST BADASS VOCAL BATTLE ACTION EVER _ by Epikus.mp3" 1
+      >
+    >
+  >
+  <TRACK {3C0999D8-0995-45A6-8759-17227985B5C5}
+    NAME "Mortal Kombat X - Johnny Cage breaking bones"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3C0999D8-0995-45A6-8759-17227985B5C5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 43.5
+      SNAPOFFS 0
+      LENGTH 1.38529248986507
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DF5DD020-B50C-484A-B763-D7B36BDB8264}
+      IID 38
+      NAME "Mortal Kombat X - Johnny Cage breaking bones...mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.49723073700532
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {08C7F4D6-D59E-4F85-83D7-444C49EE9D47}
+      <SOURCE MP3
+        FILE "C:\Users\jarre\Downloads\Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 54.25292124098632
+      SNAPOFFS 0
+      LENGTH 1.38529248986507
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {423697C0-5B48-4BA5-BA27-ACCAB9F331A6}
+      IID 38
+      NAME "Mortal Kombat X - Johnny Cage breaking bones...mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.49723073700532
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0F843F68-BB0A-4522-B657-99CF69DB8207}
+      <SOURCE MP3
+        FILE "C:\Users\jarre\Downloads\Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 84.62946649477817
+      SNAPOFFS 0
+      LENGTH 1.87053350522183
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6AC578B5-12C8-4D23-AFDE-E7F7C8CE226C}
+      IID 38
+      NAME "Mortal Kombat X - Johnny Cage breaking bones...mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.49723073700532
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E9CA00CE-5D1F-4564-9652-8E524DEBA550}
+      <SOURCE MP3
+        FILE "C:\Users\jarre\Downloads\Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
+      >
+    >
+  >
+  <TRACK {86DFB93C-B6A2-4647-ACE0-ECFB48552A15}
+    NAME "Shotgun Reload SFX"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {86DFB93C-B6A2-4647-ACE0-ECFB48552A15}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 76.87157672259491
+      SNAPOFFS 0
+      LENGTH 1.12842327740509
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.478212 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5156CB9D-93E9-4DC8-A27D-C5DA9A70F9C3}
+      IID 41
+      NAME "Glass Breaking Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2CC25208-238B-4D5C-A8C5-BCEB1F68F2F2}
+      <SOURCE MP3
+        FILE "C:\Users\jarre\Downloads\Glass Breaking Sound Effect.mp3" 1
+      >
+    >
+  >
+  <TRACK {39E4B3C0-5595-4384-995F-10B9799659BA}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 1
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {39E4B3C0-5595-4384-995F-10B9799659BA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 88.12473660868599
+      SNAPOFFS 0
+      LENGTH 0.65062358805139
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5523BFFC-81AE-4763-B35D-BE536F08B65A}
+      IID 42
+      NAME "Shotgun Reload SFX.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.14510869589549
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8F300A33-4162-4A95-8D90-908D9B4A61AD}
+      <SOURCE MP3
+        FILE "C:\Users\jarre\Downloads\Shotgun Reload SFX.mp3" 1
+      >
+    >
+  >
+  <TRACK {02DD8F7D-6CFE-4574-9DD6-C7C9C3E1EFDF}
+    NAME "Steam Hissing Sound Effect"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {02DD8F7D-6CFE-4574-9DD6-C7C9C3E1EFDF}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 37.5925211441798
+      SNAPOFFS 0
+      LENGTH 1.4074788558202
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.529316 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7ED2D662-1921-44DB-B578-BD997AE7839E}
+      IID 43
+      NAME "Steam Hissing Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.16093439503473
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FB7A2B99-C8B2-4FD6-B0C9-A10F542CB453}
+      <SOURCE MP3
+        FILE "C:\Users\jarre\Downloads\Steam Hissing Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 82.40309237514157
+      SNAPOFFS 0
+      LENGTH 1.4074788558202
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.529316 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {182EBE10-F2A2-4335-9387-531F2E688459}
+      IID 43
+      NAME "Steam Hissing Sound Effect.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.16093439503473
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D019F01F-2EB1-4DAE-9A5B-E75491A357D2}
+      <SOURCE MP3
+        FILE "C:\Users\jarre\Downloads\Steam Hissing Sound Effect.mp3" 1
+      >
+    >
+  >
+  <TRACK {5D75B5D4-29A6-4E64-963D-40B7992D9D3A}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {5D75B5D4-29A6-4E64-963D-40B7992D9D3A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 82.40309237514157
+      SNAPOFFS 0
+      LENGTH 2.73595489241643
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.806458 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CB5F3456-F326-490D-8066-9271FBCE9C9D}
+      IID 47
+      NAME "TRAIN Sound Effects - Steam Train Start and Whistle.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E156D371-B1B8-4E34-AC64-5A8AA2E41E9C}
+      <SOURCE MP3
+        FILE "C:\Users\jarre\Downloads\TRAIN Sound Effects - Steam Train Start and Whistle.mp3" 1
       >
     >
   >
