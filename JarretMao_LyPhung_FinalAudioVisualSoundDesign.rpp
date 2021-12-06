@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.42/win64" 1638756457
+<REAPER_PROJECT 0.1 "6.42/win64" 1638756976
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 85
-  ZOOM 18.15611366294416 0 0
+  CURSOR 82.5
+  ZOOM 35.97100448332701 1955 0
   VZOOMEX 5 0
   USE_REC_CFG 0
   RECMODE 1
@@ -182,7 +182,7 @@
     >
   >
   <TRACK {3C0999D8-0995-45A6-8759-17227985B5C5}
-    NAME "Mortal Kombat X - Johnny Cage breaking bones"
+    NAME "Bone Breaking"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -224,7 +224,7 @@
       CHANMODE 0
       GUID {08C7F4D6-D59E-4F85-83D7-444C49EE9D47}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
+        FILE "Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
       >
     >
     <ITEM
@@ -246,7 +246,7 @@
       CHANMODE 0
       GUID {0F843F68-BB0A-4522-B657-99CF69DB8207}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
+        FILE "Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
       >
     >
     <ITEM
@@ -268,12 +268,12 @@
       CHANMODE 0
       GUID {E9CA00CE-5D1F-4564-9652-8E524DEBA550}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
+        FILE "Mortal Kombat X - Johnny Cage breaking bones...mp3" 1
       >
     >
   >
   <TRACK {86DFB93C-B6A2-4647-ACE0-ECFB48552A15}
-    NAME "Shotgun Reload SFX"
+    NAME "Glass Shattering SFX"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -308,19 +308,19 @@
       SEL 0
       IGUID {5156CB9D-93E9-4DC8-A27D-C5DA9A70F9C3}
       IID 41
-      NAME "Glass Breaking Sound Effect.mp3"
+      NAME "Shotgun Reload SFX.mp3"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {2CC25208-238B-4D5C-A8C5-BCEB1F68F2F2}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Glass Breaking Sound Effect.mp3" 1
+        FILE "Shotgun Reload SFX.mp3" 1
       >
     >
   >
   <TRACK {39E4B3C0-5595-4384-995F-10B9799659BA}
-    NAME ""
+    NAME "Shotgun Reload SFX"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -352,7 +352,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {5523BFFC-81AE-4763-B35D-BE536F08B65A}
       IID 42
       NAME "Shotgun Reload SFX.mp3"
@@ -362,7 +362,7 @@
       CHANMODE 0
       GUID {8F300A33-4162-4A95-8D90-908D9B4A61AD}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Shotgun Reload SFX.mp3" 1
+        FILE "Shotgun Reload SFX.mp3" 1
       >
     >
   >
@@ -409,7 +409,7 @@
       CHANMODE 0
       GUID {FB7A2B99-C8B2-4FD6-B0C9-A10F542CB453}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Steam Hissing Sound Effect.mp3" 1
+        FILE "Steam Hissing Sound Effect.mp3" 1
       >
     >
     <ITEM
@@ -431,12 +431,12 @@
       CHANMODE 0
       GUID {D019F01F-2EB1-4DAE-9A5B-E75491A357D2}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\Steam Hissing Sound Effect.mp3" 1
+        FILE "Steam Hissing Sound Effect.mp3" 1
       >
     >
   >
   <TRACK {5D75B5D4-29A6-4E64-963D-40B7992D9D3A}
-    NAME ""
+    NAME "Train Whistle"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -478,7 +478,7 @@
       CHANMODE 0
       GUID {E156D371-B1B8-4E34-AC64-5A8AA2E41E9C}
       <SOURCE MP3
-        FILE "C:\Users\jarre\Downloads\TRAIN Sound Effects - Steam Train Start and Whistle.mp3" 1
+        FILE "TRAIN Sound Effects - Steam Train Start and Whistle.mp3" 1
       >
     >
   >
