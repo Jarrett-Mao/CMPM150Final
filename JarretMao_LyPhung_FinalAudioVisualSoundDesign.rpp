@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.36/win64" 1638834046
+<REAPER_PROJECT 0.1 "6.36/win64" 1638838653
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,9 +14,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 108.11151832139126
-  ZOOM 25.60083391606189 2411 0
-  VZOOMEX 5 218
+  CURSOR 27.75133040093691
+  ZOOM 6.52220983228571 0 0
+  VZOOMEX 5 259
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -56,8 +56,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 40.5064930072215 40.5064930072215
-  SELECTION2 40.5064930072215 40.5064930072215
+  SELECTION 54.2169838900901 53.78731038663838
+  SELECTION2 54.2169838900901 53.78731038663838
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -138,7 +138,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.09635991507094 0 -1 -1 1
+    VOLPAN 0.22026044893656 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -636,7 +636,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -2495,7 +2495,7 @@
       IGUID {74727ABF-72F9-4BB0-B815-509947BB1403}
       IID 303
       NAME "Electricity spark sound effects HQ.mp3"
-      VOLPAN 1 0 0.654876 -1
+      VOLPAN 1 0 0.200791 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
@@ -2507,7 +2507,7 @@
     <ITEM
       POSITION 122.93761336073372
       SNAPOFFS 0
-      LENGTH 3.60765005347527
+      LENGTH 2.69341900797117
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -3228,7 +3228,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -3369,6 +3369,427 @@
       GUID {5C724A0A-31CD-45B1-B2FA-0D62A7562CE5}
       <SOURCE MP3
         FILE "Walking on metal - Sound Effect ▌Improved With Audacity ▌.mp3" 1
+      >
+    >
+  >
+  <TRACK {44C08470-DD6C-4A23-AF9B-64E31F9D6F2F}
+    NAME Dialogue
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.20369801508874 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {44C08470-DD6C-4A23-AF9B-64E31F9D6F2F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 13.36032423001982
+      SNAPOFFS 0
+      LENGTH 1.83449330113656
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AA8E6A0E-69EF-4C51-AF13-46426FD31D5A}
+      IID 322
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 141.6098442636368
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {80524605-1197-4894-9D67-D19E5B928C30}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 40.78365794944394
+      SNAPOFFS 0
+      LENGTH 1.11687771322039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EFCACF34-4ADA-48BE-B125-C155A0BCCDC1}
+      IID 333
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 140.49296655041638
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B0454EF6-C041-4317-B321-E2EA0535C52A}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 44.1782484003544
+      SNAPOFFS 0
+      LENGTH 0.5859184137978
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {084F4381-6479-4775-8107-BCF19B629D56}
+      IID 343
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.778279 -1
+      SOFFS 14.68382096432721
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EA4E2A09-FDC7-42ED-A749-66506EDD29D2}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 48.43804792859037
+      SNAPOFFS 0
+      LENGTH 0.70924626144559
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9301BFE8-01F0-4075-8945-127331800C37}
+      IID 323
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 143.44433756477335
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0277760A-6F1A-4CAB-974E-A2C326860A1C}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 49.45255688686849
+      SNAPOFFS 0
+      LENGTH 1.05926012758114
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5CE3BEF8-8AA6-4A2C-9F2B-17B0EF507ED7}
+      IID 330
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 144.15358382621895
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5E1BA6CE-6DA1-4135-9915-F110B61B0F05}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 51.67800409696628
+      SNAPOFFS 0
+      LENGTH 0.62497964138432
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {89237A9E-9778-4684-A18D-5077FC37696F}
+      IID 352
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 14.05884132294288
+      PLAYRATE 1.25 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E93F3F18-2270-48D9-8782-D634E5D09CFE}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 54.98075814822971
+      SNAPOFFS 0
+      LENGTH 0.63303393592844
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B13D0E25-1391-4B94-8DC7-733CEA5CBB5E}
+      IID 351
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 15.26973937812501
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F037495D-39CC-4576-A130-BE4543EA9197}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 57.10751473149259
+      SNAPOFFS 0
+      LENGTH 0.66404086897085
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4D671BEE-6FAF-4043-867F-40006BC8D856}
+      IID 338
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 51.12794630255059
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7242E976-E931-44EF-98D2-EA84226BEC5A}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 58.47465769702081
+      SNAPOFFS 0
+      LENGTH 0.7812245517304
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {66F79018-D0F9-4FA0-8586-DB72F72575DD}
+      IID 354
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 51.79198717152144
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BD9335E5-3160-4586-80D4-16D3129B096A}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 60.50584153151986
+      SNAPOFFS 0
+      LENGTH 1.09371437242254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AA100E20-4D09-422A-A60A-D9DE9D682F91}
+      IID 356
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 54.37002819223178
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A881AF4B-37C9-452F-8028-4FD1AEFD235F}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 63.44779490305709
+      SNAPOFFS 0
+      LENGTH 0.93467288851988
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {123F0D08-5458-45D0-A66F-446FFCD5EC77}
+      IID 358
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 56.34740627690449
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {58D1871D-C9B7-4B83-ACA8-61C3CEEDA263}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 72.06796489712984
+      SNAPOFFS 0
+      LENGTH 0.78122455173039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D09AF347-A27E-470E-9C21-F044F5F105DA}
+      IID 331
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 44.16344979230306
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A55B9AF4-315E-456F-B369-1E52B60828E0}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 76.92401518358116
+      SNAPOFFS 0
+      LENGTH 1.25642556703902
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E2F16C44-6928-496D-B117-7C80E9F60C17}
+      IID 316
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 138.69482256659163
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {01CE90D8-D66A-4533-9A37-F7BBC0D3530C}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 86.42975180901711
+      SNAPOFFS 0
+      LENGTH 0.61722335079892
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {15100F5F-1591-4AFF-B2C7-652454004DA4}
+      IID 334
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 43.54622644150413
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B09FCA56-1D60-4BA1-9D58-074335D6E322}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 99.26587877911516
+      SNAPOFFS 0
+      LENGTH 0.88366371225014
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {05E1E238-52EC-4874-99E4-74A1F4760D3C}
+      IID 357
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 55.46374256465435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F02F41E-3BCF-48FD-966B-788C5F9634BE}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 100.15391571532456
+      SNAPOFFS 0
+      LENGTH 1.79681646897993
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D7871A1E-23BC-442D-A189-BEE116EDB000}
+      IID 355
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 52.57321172325184
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {976B7168-41B2-40CC-806A-1FA9D04792F1}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 116.66916879054344
+      SNAPOFFS 0
+      LENGTH 3.07892245630087
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8278B6B3-DC98-4645-9BE9-D809F278C13B}
+      IID 361
+      NAME "Male Deep _ Heavy Breathing Sound Effect.mp3"
+      VOLPAN 1 0 2.041485 -1
+      SOFFS 30.57595110090713
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {97D774F2-A650-4CA4-8FE8-35C7A5FAEB4A}
+      <SOURCE MP3
+        FILE "Male Deep _ Heavy Breathing Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 125.65722647796885
+      SNAPOFFS 0
+      LENGTH 2.10908772357016
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CBDC4B52-07BB-4662-8DAB-1B6543443BA9}
+      IID 361
+      NAME "Male Deep _ Heavy Breathing Sound Effect.mp3"
+      VOLPAN 1 0 2.041485 -1
+      SOFFS 34.47958492938365
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {440F17A2-CF3A-4ABC-92BA-54FFACFE7D32}
+      <SOURCE MP3
+        FILE "Male Deep _ Heavy Breathing Sound Effect.mp3" 1
       >
     >
   >
