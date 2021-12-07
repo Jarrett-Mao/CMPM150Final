@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.36/win64" 1638834046
+<REAPER_PROJECT 0.1 "6.36/win64" 1638839554
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,9 +14,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 108.11151832139126
-  ZOOM 25.60083391606189 2411 0
-  VZOOMEX 5 218
+  CURSOR 12.92047816483398
+  ZOOM 18.18818135071858 0 0
+  VZOOMEX 5 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -56,8 +56,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 40.5064930072215 40.5064930072215
-  SELECTION2 40.5064930072215 40.5064930072215
+  SELECTION 129.43138345698912 129.43138345698912
+  SELECTION2 129.43138345698912 129.43138345698912
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -138,7 +138,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.09635991507094 0 -1 -1 1
+    VOLPAN 0.22026044893656 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -217,13 +217,26 @@
       IGUID {C30694A4-03BF-4C37-9885-74CA6C8047F0}
       IID 124
       NAME "5 Slam Impact - @Sound Effect.mp3"
-      VOLPAN 1 0 0.77874 -1
+      VOLPAN 1 0 0.608096 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {16F8DAC8-602C-4810-B472-6D0C1B12A114}
       <SOURCE MP3
         FILE "5 Slam Impact - @Sound Effect.mp3" 1
+      >
+      <TAKEFX
+        WNDRECT 24 52 716 352
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS loser/Saturation ""
+          50 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {C810B207-CFC7-4329-AE23-6D1C2AFB02C6}
+        WAK 0 0
       >
     >
     <ITEM
@@ -239,13 +252,26 @@
       IGUID {8E61DE55-F2F4-4FE7-8196-F9DF5DC8BDA7}
       IID 124
       NAME "5 Slam Impact - @Sound Effect.mp3"
-      VOLPAN 1 0.688 1.457901 -1
+      VOLPAN 1 0.688 0.926851 -1
       SOFFS 6.5657897628838
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {C07E0CB9-D5F2-408A-BA03-3B7131B01F45}
       <SOURCE MP3
         FILE "5 Slam Impact - @Sound Effect.mp3" 1
+      >
+      <TAKEFX
+        WNDRECT 24 52 716 352
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS loser/Saturation ""
+          50 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {9E1A89AC-2BA3-4A0D-AE9C-73EF7D69E635}
+        WAK 0 0
       >
     >
     <ITEM
@@ -603,23 +629,38 @@
     <ITEM
       POSITION 131.01914666723147
       SNAPOFFS 0
-      LENGTH 2.91398018185618
+      LENGTH 3.18543532204799
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.860286 0 1 0 0 0
       MUTE 0 0
       SEL 0
       IGUID {7CE7DA02-6FC7-4409-BFF3-D7E47EB08670}
       IID 309
       NAME "5 Slam Impact - @Sound Effect.mp3"
-      VOLPAN 1 0 1 -1
+      VOLPAN 1 0 0.418608 -1
       SOFFS 6.54271021965712
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {E0934795-AF77-41AB-8350-9454E80DC005}
       <SOURCE MP3
         FILE "5 Slam Impact - @Sound Effect.mp3" 1
+      >
+      <TAKEFX
+        WNDRECT 24 52 643 345
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+          OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+          776t3g3wrd7vOzU/7zs1PxjtNT8AAAA/AACAPwAAAAAAAIA/AAAAAA==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {4EC7F4F3-1BF9-4534-BE24-BF25C2A1981A}
+        WAK 0 0
       >
     >
   >
@@ -1086,6 +1127,21 @@
       <SOURCE MP3
         FILE "5 Slam Impact - @Sound Effect.mp3" 1
       >
+      <TAKEFX
+        WNDRECT 24 52 643 345
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+          OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+          776t3g3wrd7vOzU/7zs1Px6oNz8AAAA/AACAPwAAAAAAAIA/AAAAAA==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {781A8A7C-9942-423C-BD70-5C3051DECB23}
+        WAK 0 0
+      >
     >
     <ITEM
       POSITION 108.97878276917618
@@ -1123,7 +1179,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1301,13 +1357,28 @@
       IGUID {38C2BA40-1FD3-4E10-9DA8-3F53EF3A9493}
       IID 145
       NAME "SMOKE SOUND EFFECT.mp3"
-      VOLPAN 1 0 2.916018 -1
+      VOLPAN 1 0 0.822687 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {884D41E9-8D33-4040-96C0-7B9E4CD9FF08}
       <SOURCE MP3
         FILE "SMOKE SOUND EFFECT.mp3" 1
+      >
+      <TAKEFX
+        WNDRECT 24 52 643 345
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+          OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+          776t3g3wrd4n2Jw/tsDKPoldHz8AAAA/AACAPwAAAAAAAIA/AAAAAA==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {B41D49BA-37A8-4CF4-992A-B1D34DD960D6}
+        WAK 0 0
       >
     >
     <ITEM
@@ -1468,6 +1539,28 @@
       >
     >
     <ITEM
+      POSITION 11.96074748498335
+      SNAPOFFS 0
+      LENGTH 1.02679270752757
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4EDF684B-C998-4DF7-9679-807A89451CB4}
+      IID 174
+      NAME "Whoosh Sound Effects.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 14.32282931602468
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0630D195-CF51-4FF3-B031-2763F758FFE6}
+      <SOURCE MP3
+        FILE "Whoosh Sound Effects.mp3" 1
+      >
+    >
+    <ITEM
       POSITION 13.06771871276374
       SNAPOFFS 0
       LENGTH 0.33634574253492
@@ -1590,13 +1683,28 @@
       IGUID {FEBD36D7-1BAE-41D5-9204-ECE56BD06907}
       IID 74
       NAME "Shockwave Sound Effect for Montages.mp3"
-      VOLPAN 1 0 1.833522 -1
+      VOLPAN 1 0 1.244477 -1
       SOFFS 0.46771332781985
       PLAYRATE 1 1 -2 -1 0 0.0025
       CHANMODE 0
       GUID {C7B2697F-4544-4ADC-B57C-41B36C9F7B9B}
       <SOURCE MP3
         FILE "Shockwave Sound Effect for Montages.mp3" 1
+      >
+      <TAKEFX
+        WNDRECT 24 52 643 345
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+          OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+          776t3g3wrd7vOzU/gdzYP5eWlj4AAAA/AACAPwAAAAAAAIA/AAAAAA==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {B6591E5A-FF14-4C84-95DA-CF5A9F597E31}
+        WAK 0 0
       >
     >
     <ITEM
@@ -1729,6 +1837,21 @@
       GUID {FC32B41D-DE94-4759-B788-731B36BE9F83}
       <SOURCE MP3
         FILE "ShockWave Sound Effect (HD).mp3" 1
+      >
+      <TAKEFX
+        WNDRECT 24 52 643 345
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+          OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+          776t3g3wrd7vOzU/7zs1PwAAED8AAAA/AACAPwAAAAAAAIA/AAAAAA==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {4A17C3FF-92CC-445A-9FA9-36CE9EDF7E40}
+        WAK 0 0
       >
     >
     <ITEM
@@ -2495,7 +2618,7 @@
       IGUID {74727ABF-72F9-4BB0-B815-509947BB1403}
       IID 303
       NAME "Electricity spark sound effects HQ.mp3"
-      VOLPAN 1 0 0.654876 -1
+      VOLPAN 1 0 0.200791 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
@@ -2503,11 +2626,26 @@
       <SOURCE MP3
         FILE "Electricity spark sound effects HQ.mp3" 1
       >
+      <TAKEFX
+        WNDRECT 24 52 734 436
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaDelay (Cockos)" readelay.dll 0 "" 1919247468<5653547265646C72656164656C617900> ""
+          bGRlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAA
+          AAAAAAAAAAABAAAALAAAAAIAAAAAAAAAAACAPwAAgD8AAAAAAACAP6YyCjoAAIA8nNEHMwAAgD8AAAAAAACAPwAAgD8AAIA/AAAAPw==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {655FED48-63A6-40A9-9A6F-1DF76A4E8A02}
+        WAK 0 0
+      >
     >
     <ITEM
       POSITION 122.93761336073372
       SNAPOFFS 0
-      LENGTH 3.60765005347527
+      LENGTH 2.69341900797117
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -2572,6 +2710,30 @@
       <SOURCE MP3
         FILE "Gas Mask Sound Effect.mp3" 1
       >
+      <TAKEFX
+        WNDRECT 24 52 734 436
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaDelay (Cockos)" readelay.dll 0 "" 1919247468<5653547265646C72656164656C617900> ""
+          bGRlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAA
+          AAAAAAAAAAABAAAALAAAAAIAAAAAAAAAAACAPwAAgD8AAAAAAACAP2EqNjkAAIA8nNEHMwAAgD8AAAAAAACAPwAAgD8AAIA/AAAAPw==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {8F265EDD-214D-4DEA-B7A5-D07AA15CA375}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: ReaVerb (Cockos)" reaverb.dll 0 "" 1919252066<56535472657662726561766572620000> ""
+          YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAJAAAAAEAAAAAABAA
+          AAAAwZfPyD0AAIA/AAAAAAAAgD8AAIA/AAAAPwAAgD8AAIA/
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {D8ABAAC6-C944-47C4-9B53-99DA378366CB}
+        WAK 0 0
+      >
     >
     <ITEM
       POSITION 18
@@ -2593,6 +2755,30 @@
       GUID {812D258B-99C1-4149-B8C9-81BE1AAC8E46}
       <SOURCE MP3
         FILE "SMOKE SOUND EFFECT.mp3" 1
+      >
+      <TAKEFX
+        WNDRECT 24 52 734 436
+        SHOW 0
+        LASTSEL 1
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaVerb (Cockos)" reaverb.dll 0 "" 1919252066<56535472657662726561766572620000> ""
+          YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAJAAAAAEAAAAAABAA
+          AAAAwcybgD78Ae0/AAAAAAAAgD8AAIA/AAAAPwAAgD8AAIA/
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {3B54E514-0F8D-4324-B556-B8AA4A697919}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: ReaDelay (Cockos)" readelay.dll 0 "" 1919247468<5653547265646C72656164656C617900> ""
+          bGRlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAA
+          AAAAAAAAAAABAAAALAAAAAIAAAAAAAAAAACAPwAAgD8AAAAAAACAPxqnlzkAAIA8nNEHMwAAgD8AAAAAAACAPwAAgD8AAIA/AAAAPw==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {42090AD0-E848-4291-882F-B47D6EB28D21}
+        WAK 0 0
       >
     >
     <ITEM
@@ -3127,28 +3313,6 @@
       >
     >
     <ITEM
-      POSITION 11.96074748498335
-      SNAPOFFS 0
-      LENGTH 1.02679270752757
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {4EDF684B-C998-4DF7-9679-807A89451CB4}
-      IID 174
-      NAME "Whoosh Sound Effects.mp3"
-      VOLPAN 1 0 1 -1
-      SOFFS 14.32282931602468
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {0630D195-CF51-4FF3-B031-2763F758FFE6}
-      <SOURCE MP3
-        FILE "Whoosh Sound Effects.mp3" 1
-      >
-    >
-    <ITEM
       POSITION 74.5
       SNAPOFFS 0
       LENGTH 1.48906859322616
@@ -3228,7 +3392,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -3260,6 +3424,21 @@
       <SOURCE MP3
         FILE "Creepy Footsteps Sound Effect (HD) (FREE).mp3" 1
       >
+      <TAKEFX
+        WNDRECT 24 52 643 345
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+          OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+          776t3g3wrd7vOzU/7zs1P2R49D4AAAA/AACAPwAAAAAAAIA/AAAAAA==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {FEE76B9F-C818-4827-ADCC-CAC8D4C96898}
+        WAK 0 0
+      >
     >
     <ITEM
       POSITION 6.5
@@ -3281,6 +3460,21 @@
       GUID {9CD40D5D-C044-480D-A397-C9A060959A4D}
       <SOURCE MP3
         FILE "Creepy Footsteps Sound Effect (HD) (FREE).mp3" 1
+      >
+      <TAKEFX
+        WNDRECT 56 84 643 345
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+          OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+          776t3g3wrd7vOzU/7zs1P81y+T4AAAA/AACAPwAAAAAAAIA/AAAAAA==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {4D2D71FF-B15A-4E82-972C-CF677CD6970D}
+        WAK 0 0
       >
     >
     <ITEM
@@ -3369,6 +3563,427 @@
       GUID {5C724A0A-31CD-45B1-B2FA-0D62A7562CE5}
       <SOURCE MP3
         FILE "Walking on metal - Sound Effect ▌Improved With Audacity ▌.mp3" 1
+      >
+    >
+  >
+  <TRACK {44C08470-DD6C-4A23-AF9B-64E31F9D6F2F}
+    NAME Dialogue
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.20369801508874 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {44C08470-DD6C-4A23-AF9B-64E31F9D6F2F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 13.36032423001982
+      SNAPOFFS 0
+      LENGTH 1.83449330113656
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AA8E6A0E-69EF-4C51-AF13-46426FD31D5A}
+      IID 322
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 141.6098442636368
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {80524605-1197-4894-9D67-D19E5B928C30}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 40.78365794944394
+      SNAPOFFS 0
+      LENGTH 1.11687771322039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EFCACF34-4ADA-48BE-B125-C155A0BCCDC1}
+      IID 333
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 140.49296655041638
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B0454EF6-C041-4317-B321-E2EA0535C52A}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 44.1782484003544
+      SNAPOFFS 0
+      LENGTH 0.5859184137978
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {084F4381-6479-4775-8107-BCF19B629D56}
+      IID 343
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.778279 -1
+      SOFFS 14.68382096432721
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EA4E2A09-FDC7-42ED-A749-66506EDD29D2}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 48.43804792859037
+      SNAPOFFS 0
+      LENGTH 0.70924626144559
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9301BFE8-01F0-4075-8945-127331800C37}
+      IID 323
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 143.44433756477335
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0277760A-6F1A-4CAB-974E-A2C326860A1C}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 49.45255688686849
+      SNAPOFFS 0
+      LENGTH 1.05926012758114
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5CE3BEF8-8AA6-4A2C-9F2B-17B0EF507ED7}
+      IID 330
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 144.15358382621895
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5E1BA6CE-6DA1-4135-9915-F110B61B0F05}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 51.67800409696628
+      SNAPOFFS 0
+      LENGTH 0.62497964138432
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {89237A9E-9778-4684-A18D-5077FC37696F}
+      IID 352
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 14.05884132294288
+      PLAYRATE 1.25 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E93F3F18-2270-48D9-8782-D634E5D09CFE}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 54.98075814822971
+      SNAPOFFS 0
+      LENGTH 0.63303393592844
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B13D0E25-1391-4B94-8DC7-733CEA5CBB5E}
+      IID 351
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 15.26973937812501
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F037495D-39CC-4576-A130-BE4543EA9197}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 57.10751473149259
+      SNAPOFFS 0
+      LENGTH 0.66404086897085
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4D671BEE-6FAF-4043-867F-40006BC8D856}
+      IID 338
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 51.12794630255059
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7242E976-E931-44EF-98D2-EA84226BEC5A}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 58.47465769702081
+      SNAPOFFS 0
+      LENGTH 0.7812245517304
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {66F79018-D0F9-4FA0-8586-DB72F72575DD}
+      IID 354
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 51.79198717152144
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BD9335E5-3160-4586-80D4-16D3129B096A}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 60.50584153151986
+      SNAPOFFS 0
+      LENGTH 1.09371437242254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AA100E20-4D09-422A-A60A-D9DE9D682F91}
+      IID 356
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 54.37002819223178
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A881AF4B-37C9-452F-8028-4FD1AEFD235F}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 63.44779490305709
+      SNAPOFFS 0
+      LENGTH 0.93467288851988
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {123F0D08-5458-45D0-A66F-446FFCD5EC77}
+      IID 358
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 56.34740627690449
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {58D1871D-C9B7-4B83-ACA8-61C3CEEDA263}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 72.06796489712984
+      SNAPOFFS 0
+      LENGTH 0.78122455173039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D09AF347-A27E-470E-9C21-F044F5F105DA}
+      IID 331
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 44.16344979230306
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A55B9AF4-315E-456F-B369-1E52B60828E0}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 76.92401518358116
+      SNAPOFFS 0
+      LENGTH 1.25642556703902
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E2F16C44-6928-496D-B117-7C80E9F60C17}
+      IID 316
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 138.69482256659163
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {01CE90D8-D66A-4533-9A37-F7BBC0D3530C}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 86.42975180901711
+      SNAPOFFS 0
+      LENGTH 0.61722335079892
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {15100F5F-1591-4AFF-B2C7-652454004DA4}
+      IID 334
+      NAME "Vi Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 43.54622644150413
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B09FCA56-1D60-4BA1-9D58-074335D6E322}
+      <SOURCE MP3
+        FILE "Vi Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 99.26587877911516
+      SNAPOFFS 0
+      LENGTH 0.88366371225014
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {05E1E238-52EC-4874-99E4-74A1F4760D3C}
+      IID 357
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 55.46374256465435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F02F41E-3BCF-48FD-966B-788C5F9634BE}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 100.15391571532456
+      SNAPOFFS 0
+      LENGTH 1.79681646897993
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D7871A1E-23BC-442D-A189-BEE116EDB000}
+      IID 355
+      NAME "Jayce Voice - English - League of Legends.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 52.57321172325184
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {976B7168-41B2-40CC-806A-1FA9D04792F1}
+      <SOURCE MP3
+        FILE "Jayce Voice - English - League of Legends.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 116.66916879054344
+      SNAPOFFS 0
+      LENGTH 3.07892245630087
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8278B6B3-DC98-4645-9BE9-D809F278C13B}
+      IID 361
+      NAME "Male Deep _ Heavy Breathing Sound Effect.mp3"
+      VOLPAN 1 0 2.041485 -1
+      SOFFS 30.57595110090713
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {97D774F2-A650-4CA4-8FE8-35C7A5FAEB4A}
+      <SOURCE MP3
+        FILE "Male Deep _ Heavy Breathing Sound Effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 125.65722647796885
+      SNAPOFFS 0
+      LENGTH 2.10908772357016
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CBDC4B52-07BB-4662-8DAB-1B6543443BA9}
+      IID 361
+      NAME "Male Deep _ Heavy Breathing Sound Effect.mp3"
+      VOLPAN 1 0 2.041485 -1
+      SOFFS 34.47958492938365
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {440F17A2-CF3A-4ABC-92BA-54FFACFE7D32}
+      <SOURCE MP3
+        FILE "Male Deep _ Heavy Breathing Sound Effect.mp3" 1
       >
     >
   >
